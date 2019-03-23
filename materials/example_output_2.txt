@@ -1,0 +1,346 @@
+Jobs in job stack: 100 out of 100.
+Resources in resources stack: 30 out of 30.
+
+Worker 0: started.
+Worker 1: started.
+Worker 2: started.
+Worker 3: started.
+Worker 4: started.
+Worker 5: started.
+Worker 6: started.
+Worker 7: started.
+Worker 8: started.
+Worker 9: started.
+Worker 10: started.
+Worker 11: started.
+Worker 12: started.
+Worker 13: started.
+Worker 14: started.
+Worker 15: started.
+Worker 16: started.
+Worker 17: started.
+Worker 18: started.
+Worker 19: started.
+Worker 11: completed job 88.
+{"response":"OK", "job":88, "worker":11, "checksum":21}
+Worker 1: completed job 98.
+Worker 4: completed job 95.
+{"response":"OK", "job":98, "worker":1, "checksum":127}
+{"response":"OK", "job":95, "worker":4, "checksum":162}
+Worker 15: completed job 84.
+{"response":"OK", "job":84, "worker":15, "checksum":12}
+Worker 3: completed job 96.
+{"response":"OK", "job":96, "worker":3, "checksum":39}
+Worker 14: completed job 85.
+{"response":"OK", "job":85, "worker":14, "checksum":56}
+Worker 0: completed job 99.
+{"response":"OK", "job":99, "worker":0, "checksum":4}
+Worker 6: completed job 93.
+{"response":"OK", "job":93, "worker":6, "checksum":74}
+Worker 7: completed job 92.
+Worker 2: completed job 97.
+Worker 19: completed job 80.
+{"response":"OK", "job":97, "worker":2, "checksum":83}
+{"response":"OK", "job":92, "worker":7, "checksum":30}
+{"response":"OK", "job":80, "worker":19, "checksum":3}
+Worker 0: completed job 73.
+{"response":"OK", "job":73, "worker":0, "checksum":35}
+Worker 8: completed job 91.
+{"response":"OK", "job":91, "worker":8, "checksum":153}
+Worker 14: completed job 74.
+{"response":"OK", "job":74, "worker":14, "checksum":37}
+Worker 3: completed job 75.
+{"response":"OK", "job":75, "worker":3, "checksum":109}
+Worker 12: completed job 87.
+{"response":"OK", "job":87, "worker":12, "checksum":144}
+Worker 9: completed job 90.
+{"response":"OK", "job":90, "worker":9, "checksum":109}
+Worker 3: completed job 65.
+{"response":"OK", "job":65, "worker":3, "checksum":31}
+Worker 2: completed job 71.
+{"response":"OK", "job":71, "worker":2, "checksum":114}
+Worker 6: completed job 72.
+{"response":"OK", "job":72, "worker":6, "checksum":144}
+Worker 8: completed job 67.
+{"response":"OK", "job":67, "worker":8, "checksum":66}
+Worker 7: completed job 70.
+{"response":"OK", "job":70, "worker":7, "checksum":159}
+Worker 9: completed job 63.
+{"response":"OK", "job":63, "worker":9, "checksum":32}
+Worker 10: completed job 89.
+{"response":"OK", "job":89, "worker":10, "checksum":65}
+Worker 7: completed job 58.
+{"response":"OK", "job":58, "worker":7, "checksum":32}
+Worker 10: completed job 56.
+Worker 8: completed job 59.
+{"response":"OK", "job":56, "worker":10, "checksum":8}
+Worker 14: completed job 66.
+{"response":"OK", "job":59, "worker":8, "checksum":37}
+{"response":"OK", "job":66, "worker":14, "checksum":8}
+Worker 11: completed job 79.
+{"response":"OK", "job":79, "worker":11, "checksum":51}
+Worker 7: completed job 55.
+{"response":"OK", "job":55, "worker":7, "checksum":42}
+Worker 11: completed job 51.
+{"response":"OK", "job":51, "worker":11, "checksum":33}
+Worker 9: completed job 57.
+{"response":"OK", "job":57, "worker":9, "checksum":52}
+Worker 10: completed job 54.
+{"response":"OK", "job":54, "worker":10, "checksum":126}
+Worker 2: completed job 61.
+{"response":"OK", "job":61, "worker":2, "checksum":36}
+Worker 10: completed job 47.
+{"response":"OK", "job":47, "worker":10, "checksum":38}
+Worker 7: completed job 50.
+{"response":"OK", "job":50, "worker":7, "checksum":3}
+Worker 3: completed job 62.
+{"response":"OK", "job":62, "worker":3, "checksum":41}
+Worker 9: completed job 48.
+{"response":"OK", "job":48, "worker":9, "checksum":82}
+Worker 13: completed job 86.
+{"response":"OK", "job":86, "worker":13, "checksum":100}
+Worker 10: completed job 45.
+{"response":"OK", "job":45, "worker":10, "checksum":156}
+Worker 10: completed job 40.
+{"response":"OK", "job":40, "worker":10, "checksum":117}
+Worker 9: completed job 42.
+{"response":"OK", "job":42, "worker":9, "checksum":102}
+Worker 7: completed job 44.
+{"response":"OK", "job":44, "worker":7, "checksum":23}
+Worker 13: completed job 41.
+{"response":"OK", "job":41, "worker":13, "checksum":83}
+Worker 14: completed job 52.
+{"response":"OK", "job":52, "worker":14, "checksum":166}
+Worker 14: completed job 35.
+{"response":"OK", "job":35, "worker":14, "checksum":0}
+Worker 2: completed job 46.
+{"response":"OK", "job":46, "worker":2, "checksum":86}
+Worker 7: completed job 37.
+{"response":"OK", "job":37, "worker":7, "checksum":102}
+Worker 7: completed job 32.
+{"response":"OK", "job":32, "worker":7, "checksum":63}
+Worker 9: completed job 38.
+{"response":"OK", "job":38, "worker":9, "checksum":4}
+Worker 13: completed job 36.
+{"response":"OK", "job":36, "worker":13, "checksum":44}
+Worker 14: completed job 34.
+{"response":"OK", "job":34, "worker":14, "checksum":59}
+Worker 8: completed job 53.
+{"response":"OK", "job":53, "worker":8, "checksum":57}
+Worker 7: completed job 31.
+{"response":"OK", "job":31, "worker":7, "checksum":122}
+Worker 9: completed job 30.
+Worker 13: completed job 29.
+{"response":"OK", "job":30, "worker":9, "checksum":142}
+{"response":"OK", "job":29, "worker":13, "checksum":123}
+Worker 7: completed job 26.
+{"response":"OK", "job":26, "worker":7, "checksum":83}
+Worker 10: completed job 39.
+{"response":"OK", "job":39, "worker":10, "checksum":9}
+Worker 17: completed job 82.
+{"response":"OK", "job":82, "worker":17, "checksum":91}
+Worker 2: completed job 33.
+Worker 9: completed job 25.
+{"response":"OK", "job":33, "worker":2, "checksum":18}
+{"response":"OK", "job":25, "worker":9, "checksum":103}
+Worker 18: completed job 81.
+{"response":"OK", "job":81, "worker":18, "checksum":47}
+Worker 8: completed job 27.
+{"response":"OK", "job":27, "worker":8, "checksum":88}
+Worker 9: completed job 19.
+{"response":"OK", "job":19, "worker":9, "checksum":123}
+Worker 9: completed job 16.
+{"response":"OK", "job":16, "worker":9, "checksum":133}
+Worker 10: completed job 22.
+{"response":"OK", "job":22, "worker":10, "checksum":10}
+Worker 7: completed job 23.
+{"response":"OK", "job":23, "worker":7, "checksum":93}
+Worker 9: completed job 15.
+{"response":"OK", "job":15, "worker":9, "checksum":25}
+Worker 2: completed job 20.
+{"response":"OK", "job":20, "worker":2, "checksum":117}
+Worker 4: completed job 77.
+{"response":"OK", "job":77, "worker":4, "checksum":55}
+Worker 1: completed job 78.
+{"response":"OK", "job":78, "worker":1, "checksum":138}
+Worker 8: completed job 17.
+Worker 18: completed job 18.
+{"response":"OK", "job":18, "worker":18, "checksum":90}
+{"response":"OK", "job":17, "worker":8, "checksum":10}
+Worker 6: completed job 60.
+{"response":"OK", "job":60, "worker":6, "checksum":17}
+Worker 7: completed job 13.
+{"response":"OK", "job":13, "worker":7, "checksum":15}
+Worker 7: completed job 5.
+{"response":"OK", "job":5, "worker":7, "checksum":153}
+Worker 12: completed job 64.
+{"response":"OK", "job":64, "worker":12, "checksum":165}
+Worker 8: completed job 7.
+{"response":"OK", "job":7, "worker":8, "checksum":99}
+Worker 2: completed job 11.
+{"response":"OK", "job":11, "worker":2, "checksum":147}
+Worker 4: completed job 10.
+{"response":"OK", "job":10, "worker":4, "checksum":0}
+Worker 8: completed job 2.
+{"response":"OK", "job":2, "worker":8, "checksum":60}
+Worker 9: completed job 12.
+{"response":"OK", "job":12, "worker":9, "checksum":35}
+Worker 18: completed job 8.
+{"response":"OK", "job":8, "worker":18, "checksum":12}
+Worker 14: completed job 28.
+{"response":"OK", "job":28, "worker":14, "checksum":79}
+Worker 1: completed job 9.
+{"response":"OK", "job":9, "worker":1, "checksum":34}
+Worker 6: completed job 6.
+{"response":"OK", "job":6, "worker":6, "checksum":30}
+Worker 4: completed job 0.
+{"response":"OK", "job":0, "worker":4, "checksum":89}
+Worker 12: completed job 3.
+{"response":"OK", "job":3, "worker":12, "checksum":90}
+Worker 11: completed job 49.
+{"response":"OK", "job":49, "worker":11, "checksum":151}
+Worker 7: completed job 4.
+Worker 3: completed job 43.
+{"response":"OK", "job":4, "worker":7, "checksum":45}
+{"response":"OK", "job":43, "worker":3, "checksum":160}
+Worker 2: completed job 1.
+{"response":"OK", "job":1, "worker":2, "checksum":69}
+Worker 13: completed job 24.
+{"response":"OK", "job":24, "worker":13, "checksum":84}
+Worker 10: completed job 14.
+{"response":"OK", "job":14, "worker":10, "checksum":148}
+Worker 17: completed job 21.
+{"response":"OK", "job":21, "worker":17, "checksum":16}
+Worker 19: completed job 69.
+{"response":"OK", "job":69, "worker":19, "checksum":151}
+Worker 16: completed job 83.
+{"response":"OK", "job":83, "worker":16, "checksum":135}
+Worker 15: completed job 76.
+{"response":"OK", "job":76, "worker":15, "checksum":150}
+Worker 0: completed job 68.
+{"response":"OK", "job":68, "worker":0, "checksum":163}
+Worker 5: completed job 94.
+{"response":"OK", "job":94, "worker":5, "checksum":118}
+Worker 0:
+     Job 68, Resources: 23 5 18 10 11 17 28 25 14 29
+     Job 73, Resources: 19 20 21 22 23 24 25 26 29
+     Job 99, Resources: 29
+Worker 1:
+     Job 9, Resources: 26 6 0 8 16 1
+     Job 78, Resources: 25 28 17 11 10 18
+     Job 98, Resources: 28 27
+Worker 2:
+     Job 1, Resources: 5 18 10 11 17 28 25 14 29
+     Job 11, Resources: 7 4 21 15 20 13 2
+     Job 20, Resources: 5 2 13
+     Job 33, Resources: 12 13 2 5
+     Job 46, Resources: 14 19 6 1 16 18 12 13
+     Job 61, Resources: 23 24 25 26 29 3
+     Job 71, Resources: 18
+     Job 97, Resources: 26 25 24 23 22 21 20 19 18
+Worker 3:
+     Job 43, Resources: 2 13 20 15 21 4
+     Job 62, Resources: 8 0 22 9 10 11 17
+     Job 65, Resources: 16 15 14 13 12
+     Job 75, Resources: 8 9 10 11 12 13 14 15 16
+     Job 96, Resources: 17 16 15 14 13 12 11 10 9 8
+Worker 4:
+     Job 0, Resources: 12
+     Job 10, Resources: 27 12
+     Job 77, Resources: 20 15 21 4 7 12 27
+     Job 95, Resources: 7 6
+Worker 5:
+     Job 94, Resources: 7 27 26 6 0 8 16 1 24
+Worker 6:
+     Job 6, Resources: 25 28 17 11 10 18 5
+     Job 60, Resources: 18 10 11 17 28 25
+     Job 72, Resources: 3 4 5
+     Job 93, Resources: 5 4 3
+Worker 7:
+     Job 4, Resources: 19 27 26 6 0 8 16 1 24 9
+     Job 5, Resources: 6 0 8
+     Job 13, Resources: 26 8 0 6
+     Job 23, Resources: 8 26
+     Job 26, Resources: 28 26 8 0 22 9 10 11 17
+     Job 31, Resources: 17 11 10 9 22 0 8 26 28
+     Job 32, Resources: 17 11 10 9 22 0 8 26 28 27
+     Job 37, Resources: 8 0 22 9 10 11 17
+     Job 44, Resources: 17 11 10 9 22 0 8
+     Job 50, Resources: 16 18 12 13 21
+     Job 55, Resources: 22 21 13 12 18 16
+     Job 58, Resources: 21 22
+     Job 70, Resources: 29 26 25 24 23 22 21
+     Job 92, Resources: 2
+Worker 8:
+     Job 2, Resources: 19 14 29 3 23
+     Job 7, Resources: 23 3 29 14 19
+     Job 17, Resources: 24 23 3 29 14 19
+     Job 27, Resources: 18 16 1 6 19 14 29 3 23 24
+     Job 53, Resources: 27 28 26 8 0 22 9 10 11 17
+     Job 59, Resources: 7 2 5 4
+     Job 67, Resources: 2 7
+     Job 91, Resources: 1 6 7 2
+Worker 9:
+     Job 12, Resources: 1 16
+     Job 15, Resources: 18 10 11 17 28 25 16 1
+     Job 16, Resources: 25 28 17 11 10 18
+     Job 19, Resources: 6 1 16 18 10 11 17 28 25
+     Job 25, Resources: 7 4 21 15 20
+     Job 30, Resources: 25 24 23 20 15 21 4 7
+     Job 38, Resources: 5 2 7
+     Job 42, Resources: 20 23 24 25 26
+     Job 48, Resources: 3 29 26 25 24 23 20
+     Job 57, Resources: 15
+     Job 63, Resources: 12 13 14 15
+     Job 90, Resources: 6 1 20 19
+Worker 10:
+     Job 14, Resources: 29 14 25 28 17 11 10 18 5 23
+     Job 22, Resources: 0
+     Job 39, Resources: 17 11 10 9 22 0
+     Job 40, Resources: 15
+     Job 45, Resources: 21 13 12 18 16 1 6 19 14 15
+     Job 47, Resources: 6 1
+     Job 54, Resources: 14 19 20 1 6
+     Job 56, Resources: 27 28 6 1 20 19 14
+     Job 89, Resources: 19 20 1 6 28 27
+Worker 11:
+     Job 49, Resources: 1 16 8 0 6 26 27 19
+     Job 51, Resources: 0 8
+     Job 79, Resources: 11 10 9 8 0
+     Job 88, Resources: 1
+Worker 12:
+     Job 3, Resources: 22 9 24
+     Job 64, Resources: 19 14 29 3 23 24 9 22
+     Job 87, Resources: 27 28
+Worker 13:
+     Job 24, Resources: 9 24 1 16 8 0 6 26 27
+     Job 29, Resources: 3 29 14 19 6 1 16 18
+     Job 36, Resources: 4 21 15 20 23 24 25
+     Job 41, Resources: 27 28 7 2 5
+     Job 86, Resources: 4 5 2 7 28 27
+Worker 14:
+     Job 28, Resources: 23 3 29 14 19 27
+     Job 34, Resources: 13 12 18 16 1 6 19 14 29 3
+     Job 35, Resources: 3 29
+     Job 52, Resources: 26 25 24 23 20 15 21 4 29 3
+     Job 66, Resources: 17
+     Job 74, Resources: 0 17
+     Job 85, Resources: 0
+Worker 15:
+     Job 76, Resources: 3 12 22 19 2 13 20 15
+     Job 84, Resources: 6 7
+Worker 16:
+     Job 83, Resources: 9 24 1 16 8 0 6 26 27 7
+Worker 17:
+     Job 21, Resources: 27 26 6 0 8 16 1 24 9
+     Job 82, Resources: 22 9 10 11 17 28 25
+Worker 18:
+     Job 8, Resources: 8 0 6 26
+     Job 18, Resources: 22 9
+     Job 81, Resources: 25 28 17 11 10 9 22
+Worker 19:
+     Job 69, Resources: 4 21 15 20 13 2 19 22 12 3
+     Job 80, Resources: 7 6 1
+
+Jobs in job stack: 0 out of 100.
+Resources in resources stack: 30 out of 30.

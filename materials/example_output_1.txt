@@ -1,0 +1,246 @@
+Jobs in job stack: 100 out of 100.
+Resources in resources stack: 30 out of 30.
+
+Worker 0: started.
+Worker 1: started.
+Worker 2: started.
+Worker 3: started.
+Worker 4: started.
+Worker 5: started.
+Worker 6: started.
+Worker 7: started.
+Worker 8: started.
+Worker 9: started.
+Worker 10: started.
+Worker 11: started.
+Worker 12: started.
+Worker 13: started.
+Worker 14: started.
+Worker 15: started.
+Worker 16: started.
+Worker 17: started.
+Worker 18: started.
+Worker 19: started.
+Worker 11: completed job 88.
+Worker 1: completed job 98.
+Worker 4: completed job 95.
+Worker 15: completed job 84.
+Worker 3: completed job 96.
+Worker 8: completed job 91.
+Worker 14: completed job 85.
+Worker 0: completed job 99.
+Worker 6: completed job 93.
+Worker 7: completed job 92.
+Worker 2: completed job 97.
+Worker 3: completed job 76.
+Worker 19: completed job 80.
+Worker 8: completed job 74.
+Worker 9: completed job 90.
+Worker 12: completed job 87.
+Worker 9: completed job 65.
+Worker 6: completed job 71.
+Worker 0: completed job 72.
+Worker 19: completed job 67.
+Worker 2: completed job 70.
+Worker 4: completed job 77.
+Worker 9: completed job 63.
+Worker 1: completed job 78.
+Worker 4: completed job 58.
+Worker 1: completed job 56.
+Worker 8: completed job 66.
+Worker 2: completed job 59.
+Worker 6: completed job 62.
+Worker 11: completed job 79.
+Worker 9: completed job 57.
+Worker 12: completed job 64.
+Worker 2: completed job 52.
+Worker 1: completed job 54.
+Worker 2: completed job 47.
+Worker 6: completed job 51.
+Worker 9: completed job 49.
+Worker 11: completed job 50.
+Worker 12: completed job 48.
+Worker 10: completed job 89.
+Worker 10: completed job 40.
+Worker 2: completed job 45.
+Worker 10: completed job 39.
+Worker 12: completed job 41.
+Worker 13: completed job 86.
+Worker 10: completed job 37.
+Worker 13: completed job 35.
+Worker 2: completed job 38.
+Worker 1: completed job 46.
+Worker 1: completed job 31.
+Worker 0: completed job 61.
+Worker 0: completed job 29.
+Worker 13: completed job 33.
+Worker 10: completed job 34.
+Worker 0: completed job 28.
+Worker 1: completed job 30.
+Worker 4: completed job 55.
+Worker 19: completed job 60.
+Worker 11: completed job 42.
+Worker 0: completed job 25.
+Worker 13: completed job 27.
+Worker 13: completed job 19.
+Worker 19: completed job 22.
+Worker 12: completed job 36.
+Worker 12: completed job 16.
+Worker 11: completed job 21.
+Worker 4: completed job 23.
+Worker 12: completed job 15.
+Worker 17: completed job 82.
+Worker 0: completed job 20.
+Worker 9: completed job 43.
+Worker 9: completed job 9.
+Worker 13: completed job 18.
+Worker 19: completed job 17.
+Worker 13: completed job 7.
+Worker 4: completed job 13.
+Worker 13: completed job 5.
+Worker 18: completed job 81.
+Worker 18: completed job 2.
+Worker 0: completed job 10.
+Worker 12: completed job 12.
+Worker 9: completed job 8.
+Worker 19: completed job 6.
+Worker 6: completed job 44.
+Worker 4: completed job 4.
+Worker 13: completed job 3.
+Worker 0: completed job 0.
+Worker 10: completed job 26.
+Worker 17: completed job 11.
+Worker 18: completed job 1.
+Worker 2: completed job 32.
+Worker 11: completed job 14.
+Worker 14: completed job 73.
+Worker 1: completed job 24.
+Worker 7: completed job 69.
+Worker 15: completed job 75.
+Worker 16: completed job 83.
+Worker 5: completed job 94.
+Worker 3: completed job 68.
+Worker 8: completed job 53.
+Worker 0:
+     Job 0, Resources: 11
+     Job 10, Resources: 10 11
+     Job 20, Resources: 12 11 10
+     Job 25, Resources: 14 23 24 26 7
+     Job 28, Resources: 0 8 4 5 29 1
+     Job 29, Resources: 20 14 1 29 5 4 8 0
+     Job 61, Resources: 4 5 29 1 14 20
+     Job 72, Resources: 4 5 29
+     Job 99, Resources: 29
+Worker 1:
+     Job 24, Resources: 16 6 2 17 10 20 3 5 7
+     Job 30, Resources: 19 25 16 6 2 17 18 3
+     Job 31, Resources: 8 3 18 17 2 6 16 25 19
+     Job 46, Resources: 25 16 6 2 17 18 3 8
+     Job 54, Resources: 16 6 2 17 18
+     Job 56, Resources: 3 4 5 29 1 14 25
+     Job 78, Resources: 14 1 29 5 4 3
+     Job 98, Resources: 28 27
+Worker 2:
+     Job 32, Resources: 22 13 27 15 23 14 19 1 29 18
+     Job 38, Resources: 26 24 23
+     Job 45, Resources: 13 12 11 10 9 21 22 23 24 26
+     Job 47, Resources: 20 19
+     Job 52, Resources: 19 20 13 12 11 10 9 21 22 23
+     Job 59, Resources: 24 23 22 21
+     Job 70, Resources: 18 19 20 21 22 23 24
+     Job 97, Resources: 26 25 24 23 22 21 20 19 18
+Worker 3:
+     Job 68, Resources: 11 25 9 21 28 4 12 26 24 0
+     Job 76, Resources: 7 6 8 9 10 11 12 13
+     Job 96, Resources: 17 16 15 14 13 12 11 10 9 8
+Worker 4:
+     Job 4, Resources: 8 0 24 26 12 4 28 21 9 25
+     Job 13, Resources: 8 0 24 26
+     Job 23, Resources: 0 8
+     Job 55, Resources: 1 29 5 4 8 0
+     Job 58, Resources: 6 8
+     Job 77, Resources: 13 12 11 10 9 8 6
+     Job 95, Resources: 7 6
+Worker 5:
+     Job 94, Resources: 7 5 3 20 10 17 2 6 16
+Worker 6:
+     Job 44, Resources: 28 4 12 26 24 0 8
+     Job 51, Resources: 26 24
+     Job 62, Resources: 9 10 11 12 13 20 19
+     Job 71, Resources: 3
+     Job 93, Resources: 5 4 3
+Worker 7:
+     Job 69, Resources: 18 29 1 19 14 23 15 27 13 22
+     Job 92, Resources: 2
+Worker 8:
+     Job 53, Resources: 18 29 1 19 14 23 15 27 13 22
+     Job 66, Resources: 16
+     Job 74, Resources: 17 16
+     Job 91, Resources: 14 15 16 17
+Worker 9:
+     Job 8, Resources: 9 21 22 13
+     Job 9, Resources: 4 28 13 22 21 9
+     Job 43, Resources: 9 21 22 13 28 4
+     Job 49, Resources: 23 22 21 9 10 11 12 13
+     Job 57, Resources: 26
+     Job 63, Resources: 17 2 25 26
+     Job 65, Resources: 0 26 25 2 17
+     Job 90, Resources: 2 25 26 0
+Worker 10:
+     Job 26, Resources: 25 9 21 28 4 12 26 24 0
+     Job 34, Resources: 13 22 21 9 10 11 12 15 27 28
+     Job 37, Resources: 12 11 10 9 21 22 13
+     Job 39, Resources: 22 21 9 10 11 12
+     Job 40, Resources: 20
+     Job 89, Resources: 18 17 2 6 16 25
+Worker 11:
+     Job 14, Resources: 0 24 26 12 4 28 21 9 25 11
+     Job 21, Resources: 7 26 24 23 14 19 1 29 5
+     Job 42, Resources: 4 5 29 1 19
+     Job 50, Resources: 7 15 27 28 0
+     Job 79, Resources: 0 28 27 15 7
+     Job 88, Resources: 1
+Worker 12:
+     Job 12, Resources: 20 3
+     Job 15, Resources: 18 17 2 6 16 25 3 20
+     Job 16, Resources: 25 16 6 2 17 18
+     Job 36, Resources: 3 18 17 2 6 16 25
+     Job 41, Resources: 14 1 29 5 4
+     Job 48, Resources: 8 3 4 5 29 1 14
+     Job 64, Resources: 25 14 1 29 5 4 3 8
+     Job 87, Resources: 27 28
+Worker 13:
+     Job 3, Resources: 18 7 5
+     Job 5, Resources: 12 4 28
+     Job 7, Resources: 15 27 28 4 12
+     Job 18, Resources: 27 15
+     Job 19, Resources: 13 22 21 9 10 11 12 15 27
+     Job 27, Resources: 28 27 15 12 11 10 9 21 22 13
+     Job 33, Resources: 23 24 26 7
+     Job 35, Resources: 19 7
+     Job 86, Resources: 0 28 27 15 7 19
+Worker 14:
+     Job 73, Resources: 11 25 9 21 28 4 12 26 24
+     Job 85, Resources: 0
+Worker 15:
+     Job 75, Resources: 24 26 12 4 28 21 9 25 11
+     Job 84, Resources: 6 7
+Worker 16:
+     Job 83, Resources: 22 13 27 15 23 14 19 1 29 18
+Worker 17:
+     Job 11, Resources: 3 20 10 17 2 6 16
+     Job 82, Resources: 25 16 6 2 17 18 7
+Worker 18:
+     Job 1, Resources: 29 1 19 14 23 15 27 13 22
+     Job 2, Resources: 25 16 6 2 17
+     Job 81, Resources: 7 18 17 2 6 16 25
+Worker 19:
+     Job 6, Resources: 27 15 23 14 19 1 29
+     Job 17, Resources: 5 29 1 19 14 23
+     Job 22, Resources: 20
+     Job 60, Resources: 7 26 24 23 14 20
+     Job 67, Resources: 1 14
+     Job 80, Resources: 15 14 1
+
+Jobs in job stack: 0 out of 100.
+Resources in resources stack: 30 out of 30.
