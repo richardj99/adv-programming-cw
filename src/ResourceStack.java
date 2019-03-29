@@ -4,6 +4,12 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class ResourceStack {
+	
+	/*
+	 * contains a linked list of resources --> the stack
+	 * sets resource count to zero --> incremented to create the resource's id.
+	 * Lock instance --> resource stack change lock
+	 */
 
     private final LinkedList<Resource> stack; 
     private int resourceCount = 0;  // To generate each resource's ID.
@@ -11,7 +17,11 @@ public class ResourceStack {
     private final Lock resourceStackChangeLock;
     private final Condition sufficientResourcesCondition;
     
-    
+    /* Constructor Definition:
+     * initialises stack and fills it with new resources
+     * previous lock set as a ReentrantLock
+     * condition added to lock
+     */
     public ResourceStack(int size) {
         stack = new LinkedList<>();
         for(int i=0; i<size; i++) {
@@ -23,6 +33,12 @@ public class ResourceStack {
         sufficientResourcesCondition = resourceStackChangeLock.newCondition();
     }
     
+    /* Push Method Definition
+     * Lock activated
+     * resources (from array) are then passed into stack
+     * Condition signalled
+     * Lock is deactivated
+     */
     public void push(Resource[] resources) {
         resourceStackChangeLock.lock();
         try {
@@ -35,6 +51,12 @@ public class ResourceStack {
         }
     } 
     
+    /* Pop Method Definition:
+     * number of resources needed passed into the method
+     * resource stack is locked
+     * array initialised with length of number of required resources.
+     * 
+     */
     public Resource[] pop(int numberOfRequiredResources) {
         Resource[] requiredResources = new Resource[numberOfRequiredResources];
         resourceStackChangeLock.lock();

@@ -8,13 +8,25 @@ public class Workplace {
     private final ResourceStack resources;
     private final Workforce workers;
     
-    // Constructor.
+    /* Constructor.
+     * creates a JobStack using job count
+     * creates a resource stack using resource count
+     * creates a work force using worker count, the job stack and the resource stack
+     */
     public Workplace() {
         jobs = new JobStack(JOB_COUNT);
         resources = new ResourceStack(RESOURCE_COUNT);
         workers = new Workforce(WORKER_COUNT, jobs, resources);  
     }
     
+    /*main method
+     * instantiates itself
+     * prints number of current jobs in jobstack against the original amount
+     * prints the same for resources
+     * starts off workforce resource management (task a)
+     * sleeps thread until all workers are finished
+     * prints all of the job records and then shows remaining jobs and resources. 
+     */
     public static void main(String[] args) throws InterruptedException {
         
         Workplace workplace = new Workplace();

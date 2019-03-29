@@ -31,16 +31,32 @@ public class Workforce {
     
     // Starts all the worker threads.
     public void start() {
-        ;
+    	for(int i=0; i<workerThreads.length; i++) {
+            workerThreads[i].start();
+        }
     }
     
     // Checks whether all workers have finished.
     public boolean allWorkersFinished() {
-        return false;
+    	for(Worker w: pool) {
+    		if(w.getBusyState()) {
+    			return false;
+    		}
+    	}
+    	return true;
     }
 
     // Prints the job record of all workers.
     public void printJobRecords() {
-        ;
+        for(Worker w: pool) {
+        	System.out.println("Worker " + w.getId() + ":");
+        	for(Integer i: w.getJobsCompletedKeys()) {
+        		System.out.print("\tJob " + i + ", Resources: ");
+        		for(Integer j: w.getJobsCompleted().get(i)) {
+        			System.out.print(" " + j);
+        		}
+        		System.out.print("\n");
+        	}
+        }
     }
 }

@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
@@ -33,7 +34,7 @@ public class Worker implements Runnable {
     }
 
     private void log(String msg) {
-        System.out.println("Worker "+id+": "+msg); 
+        System.out.println("Worker "+id+": "+msg);
     }
     
     /// UNDER CONSTRUCTION /////////////////////////////////////////////////////
@@ -44,7 +45,52 @@ public class Worker implements Runnable {
         ;
         
     }
+    
     public void run() {
-        ;
+    	while(jobStack.getSize() > 0) {
+    		job = jobStack.pop();
+    		Integer[] resourcesUsed = new Integer[job.getResourceRequirement()];
+    		while(resources == null) {
+    			try{
+    				resources = resourceStack.pop(job.getResourceRequirement());
+    			} catch(NullPointerException e) {
+    				;
+    			}
+    		}
+    		try {
+    			Thread.sleep(job.getTimeToComplete());
+    		} catch(InterruptedException e) {
+    			;
+    		}
+    		// Job completed
+    		for(int i = 0; i<resources.length; i++) {
+    			resourcesUsed[i] = resources[i].getId();
+    		}
+    		jobsCompleted.put(job.getId(), new ArrayList<Integer>(Arrays.asList(resourcesUsed)));
+    		this.log("Completed job " + job.getId());
+    		job = null;
+    		resourceStack.push(resources);
+    		resources = null;
+    		resourcesUsed = null;
+    	}
+    	busy = false;
     }
+    
+    public boolean getBusyState() {
+    	return busy;
+    }
+    
+    public Set<Integer> getJobsCompletedKeys(){
+    	Set<Integer> keySet = jobsCompleted.keySet();
+    	return keySet;
+    }
+    
+    public Map<Integer, ArrayList<Integer>> getJobsCompleted(){
+    	return jobsCompleted;
+    }
+    
+    public Integer getId() {
+    	return id;
+    }
+    
 }
