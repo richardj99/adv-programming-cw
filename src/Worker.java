@@ -42,8 +42,11 @@ public class Worker implements Runnable {
 
     private void report(int jobID) throws MalformedURLException,IOException {
         String url = "http://www.scm.keele.ac.uk/staff/stan/app_notify.php?job=";
-        ;
-        
+        URL u = new URL(url + jobID + "&worker=" + this.id);
+        HttpURLConnection httpConnection = (HttpURLConnection) u.openConnection();
+        InputStreamReader instream = new InputStreamReader(httpConnection.getInputStream());
+        BufferedReader br = new BufferedReader(instream);
+        System.err.println(br.readLine());
     }
     
     public void run() {
@@ -68,6 +71,11 @@ public class Worker implements Runnable {
     		}
     		jobsCompleted.put(job.getId(), new ArrayList<Integer>(Arrays.asList(resourcesUsed)));
     		this.log("Completed job " + job.getId());
+    		try {
+    			this.report(job.getId());
+    		}catch(IOException e) {
+    			System.out.println("Error Reporting To Webserver");
+    		}
     		job = null;
     		resourceStack.push(resources);
     		resources = null;
