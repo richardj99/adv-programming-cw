@@ -54,11 +54,7 @@ public class Worker implements Runnable {
     		job = jobStack.pop();
     		Integer[] resourcesUsed = new Integer[job.getResourceRequirement()];
     		while(resources == null) {
-    			try{
     				resources = resourceStack.pop(job.getResourceRequirement());
-    			} catch(NullPointerException e) {
-    				;
-    			}
     		}
     		try {
     			Thread.sleep(job.getTimeToComplete());
